@@ -1,0 +1,95 @@
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: 40px auto 0 auto;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 100%;
+}
+
+.main h1{
+    margin-bottom: 14px;
+}
+
+.task {
+    border: 1.5px solid #909090;
+    padding: 14px;
+    line-height: 150%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task p {
+    white-space: pre-wrap;
+    width: 100%;
+}
+
+.containerComent {
+    margin: 18px 0;
+    width: 100%;
+    max-width: 1180px;
+}
+
+.containerComent h2 {
+    margin: 14px 0;
+}
+.button {
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 6px;
+    border: 0;
+    color: #fff;
+    background-color: #3183ff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all (0,4s);
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.03);
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #9ec4fd;
+}
+
+.comment {
+    border: 1.5px solid #909090;
+    border-radius: 6px;
+    padding: 14px;
+    line-height: 150%;
+    margin-bottom: 14px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+}
+
+.label {
+    background-color: #ccc;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 6px;
+}
+
+.buttonTrash {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
+.comment p {
+    margin-top: 14px;
+    white-space: pre-wrap;
+}
